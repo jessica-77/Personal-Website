@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Gorditas:wght@400;700&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Unna", serif ;
+    font-size: fill;
+}
+
+/* styling for the body */
+body {
+    background-color: #ffeedf;
+    
+}
+
+
+/* styling for navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffacce;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 20;
+    position: sticky;
+}
+
+.navbar button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+    background-color: #f7d488;
+}
+
+.navbar .right {
+    margin-left: auto;
+}
+
+/* styling for image container */
+
+img {
+    height: 250px;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-left {
+    position: absolute;
+    top: 15%;
+    left: 25px;
+    color: #fdc857;;
+    font-size: 40px;
+    
+    border-color: black;
+}
+
+
+
+/* styling for the donation form */
+
+h2 {
+    font-family: "Gorditas", sans-serif;
+    color: #71a17e; 
+    padding-top: 25px;
+}
+

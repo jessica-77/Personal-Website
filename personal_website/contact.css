@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0876a; /* coral salmon */
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.navbar button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.navbar button:hover {
+    background-color: #f5c04e; /* mustard gold hover */
+}
+
+.navbar .right {
+    margin-left: auto;
+}
+
+
+.contact-section {
+    background-color: #fbe6e8;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact-card {
+    background-color: #fff5f2;
+    border: 2px solid #3e5d43;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-card h2 {
+    color: #3e5d43;
+    margin-bottom: 0.5rem;
+}
+
+.contact-card a {
+    text-decoration: none;
+    color: #e0876a;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-card a:hover {
+    color: #dfa837;
+}
+
+
+footer {
+    background-color: #3e5d43;
+    color: #f5c04e;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
